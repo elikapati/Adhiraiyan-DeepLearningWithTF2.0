@@ -1,0 +1,11 @@
+name: deep-learning-with-tensorflow-2.0
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - matplotlib
+  - pandas
+  - seaborn
+  - pip:
+    - tf-nightly-2.0-preview
+    - tfp-nightly
